@@ -1,0 +1,60 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+
+# Virtual Environments
+.venv/
+venv/
+ENV/
+env/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Local configuration
+venv_path.txt
+
+# Video files
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.flv
+*.wmv
+
+# Model weights and checkpoints
+*.model
+*.pth
+*.pt
+*.ckpt
+*.h5
+*.pkl
+
+# Audio files
+*.wav
+*.mp3
+*.flac
+
+# Image files (optional, uncomment if needed)
+# *.jpg
+# *.jpeg
+# *.png
+
+# Backend - Local monitoring scripts
+ai-podcast-clipper-backend/auto_screenshot_monitor.py
+ai-podcast-clipper-backend/start_monitor.bat
+
+# OS files
+.DS_Store
+Thumbs.db
+*.log
+
+# Temporary files
+*.tmp
+*.temp
